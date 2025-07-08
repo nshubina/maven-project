@@ -6,7 +6,7 @@
   <groupId>com.example.maven-project</groupId>
   <artifactId>maven-project</artifactId>
   <packaging>pom</packaging>
-  <version>3.6.0</version>
+  <version>3.9.10</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
@@ -33,7 +33,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-  	<version>3.11.0</version>
+  	<version>3.9.10</version>
       <inherited>false</inherited>
         <configuration>
           <source>21</source>
@@ -90,69 +90,69 @@
       <plugins>
         <plugin>
           <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
           <artifactId>maven-jxr-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
           <artifactId>maven-pmd-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
           <artifactId>maven-release-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
           <artifactId>maven-site-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
           <artifactId>maven-surefire-report-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>findbugs-maven-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>taglist-maven-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.9.10</version>
         </plugin>
 
         <plugin>
@@ -175,7 +175,7 @@
       <dependency>
         <groupId>javax.servlet.jsp</groupId>
         <artifactId>jsp-api</artifactId>
-        <version>3.11.0</version>
+        <version>3.9.10</version>
       </dependency>
 
       <dependency>
