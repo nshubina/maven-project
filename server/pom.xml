@@ -17,7 +17,7 @@
 
   <build>
     <finalName>${project.artifactId}</finalName>
-  </build>
+ 
 
   <plugins>
       <plugin>
@@ -29,7 +29,8 @@
         </configuration>
       </plugin>
     </plugins>
-  
+   </build>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
